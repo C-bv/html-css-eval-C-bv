@@ -111,6 +111,7 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
+        background-position: 15%;
         
         .overlay {
             background-color: transparent;
@@ -402,14 +403,18 @@ main{
 
 }
 
-@media(max-width: 800px){
+@media(max-width: 660px){
 
     html{
-        font-size: 10px;
+        font-size: 12px;
     }
     
     header #desktop_nav #pre_nav{
         display: none;
+    }
+
+    main .second_section #top_images .img_container {
+        width: 100%;
     }
 
     main .second_section #bottom_articles #articles_container {
