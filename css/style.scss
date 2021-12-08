@@ -19,6 +19,7 @@ $primary_font: "Poppins", sans-serif;
 $secondary_font: "Oswald", sans-serif;
 
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -26,7 +27,7 @@ $secondary_font: "Oswald", sans-serif;
 
 html{
     font-family: $primary_font;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 header{
@@ -36,26 +37,24 @@ header{
     z-index: 1;
 
     #desktop_nav{
-
         color: $primary_white;
 
         #pre_nav{
-            font-size: 0.7rem;
+            font-size: 0.8rem;
             width: 100%;
             display: flex;
             justify-content: space-between;
+            align-items: center;
 
             #socials_links{
                 margin: 10px 40px;
 
                 i{
-                    font-size: 1.4rem;
                     padding: 0px 10px;
                 }
             }
 
             #contact_links{
-                margin: 10px 20px;
                 font-weight: 500;
                 
                 span{

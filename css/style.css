@@ -7,7 +7,7 @@
 
 html {
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
+  font-size: 16px;
 }
 
 header {
@@ -20,20 +20,19 @@ header #desktop_nav {
   color: #FFF;
 }
 header #desktop_nav #pre_nav {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header #desktop_nav #pre_nav #socials_links {
   margin: 10px 40px;
 }
 header #desktop_nav #pre_nav #socials_links i {
-  font-size: 1.4rem;
   padding: 0px 10px;
 }
 header #desktop_nav #pre_nav #contact_links {
-  margin: 10px 20px;
   font-weight: 500;
 }
 header #desktop_nav #pre_nav #contact_links span {
